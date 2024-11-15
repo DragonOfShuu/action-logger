@@ -1,0 +1,12 @@
+appId: dev.dragonofshuu.action-logger
+productName: Action Logger
+copyright: Copyright © 2024 Dragon of Shuu
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null
